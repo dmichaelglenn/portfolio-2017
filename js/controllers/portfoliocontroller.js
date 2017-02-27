@@ -1,7 +1,6 @@
 angular.module("ValentineApp").controller("PortfolioController", [
     "$scope",
     function($scope) {
-        $scope.test = "hey";
 
         $scope.projects = [
             {
@@ -10,7 +9,6 @@ angular.module("ValentineApp").controller("PortfolioController", [
             imgUrl: "../resources/portfolio-avery.jpg",
             description: "Single-page for Los Angeles based hip-hop artist Avery Harden.",
             link: "http://averyhardenmusic.com",
-            classes: ""
             },
             {
             title: "Winston Dark",
@@ -18,7 +16,6 @@ angular.module("ValentineApp").controller("PortfolioController", [
             imgUrl: "../resources/portfolio-winston.jpg",
             description: "Wordpress/WooCommerce application for online apparel and lifestyle retailer Winston Dark.",
             link: "http://winstondark.com",
-            classes: ""
             },
             {
             title: "Sprague Visuals",
@@ -26,15 +23,13 @@ angular.module("ValentineApp").controller("PortfolioController", [
             imgUrl: "../resources/portfolio-sprague.jpg",
             description: "Portfolio for photographer Andrew Sprague. Built with Bootstrap & Angular for a clean, responsive SPA feel.",
             link: "http://spraguevisuals.com",
-            classes: "shadow-box-accent"
             },
             {
-            title: "Cray Visuals",
-            subheading: "Portfolio",
-            imgUrl: "../resources/sprague.png",
-            description: "Website for photographer Andrew Sprague, used angular bootstrap blah blah",
-            link: "http://spraguevisuals.com",
-            classes: "shadow-box-accent"
+            title: "Database of the Moon",
+            subheading: "API",
+            imgUrl: "../resources/portfolio-moon.jpg",
+            description: "A simple, RESTful API developed as a resource for others learning about AJAX/API calls. This project is intended for future expansion.",
+            link: "http://dbofthemoon.com",
             }
         ];
     }

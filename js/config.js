@@ -13,6 +13,10 @@ app.config(function($routeProvider){
     .when("/about", {
         templateUrl: "./js/templates/about.html",
         controller: "PortfolioController"
+    })
+    .when("/contact", {
+        templateUrl: "./js/templates/contact.html",
+        controller: "PortfolioController"
     });
 
 
