@@ -1,0 +1,130 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+	color: #F7F7F2;
+}
+
+
+.full {
+  background: url("../resources/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.opacity {
+	position: fixed;
+	margin-top: -3.8em;
+	background-color: white;
+	min-width: 100%;
+	min-height: 100%;
+	opacity: .2;
+	z-index: -2;
+}
+
+a,a:visited, a:active {
+	color: #F7F7F2;
+	text-decoration: none
+}
+
+a:hover {
+	color: #f86d8b;
+	text-decoration: none;
+}
+
+.navbar-inverse {
+	background-color: #F4456B;
+	border: none !important;
+}
+
+
+.navbar-nav>li>a {
+    color: #F7F7F2 !important;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.shadow-box {
+	padding: 1em;
+	background-color: #5A5C5B;
+	-webkit-box-shadow: 10px 10px 0px 1px rgba(244,69,107,1);
+	-moz-box-shadow: 10px 10px 0px 1px rgba(244,69,107,1);
+	box-shadow: 10px 10px 0px 1px rgba(244,69,107,1);
+}
+
+.shadow-box-accent {
+	-webkit-box-shadow: -10px 10px 0px 1px rgba(244,69,107,1);
+	-moz-box-shadow: -10px 10px 0px 1px rgba(244,69,107,1);
+	box-shadow: -10px 10px 0px 1px rgba(244,69,107,1);
+}
+
+.project-box {
+	margin-bottom: 2em;
+	margin-left: .3em;
+	margin-right: .3em;
+}
+
+.highlight-button {
+	float: right !important;
+	bottom: 0em;
+	margin: 2em;
+	background-color: #F4456B;
+	padding: .5em;
+	padding-left: .6em;
+}
+
+.box-subtitles {
+	font-weight: 300;
+	margin-top: 0em;
+}
+
+#title-box {
+	float: left;
+	margin-bottom: 3em;
+	padding-top: 0em;
+	margin-left: 3em;
+	margin-top: -1em;
+	max-width: 25em;
+}
+
+#main-title {
+	margin-bottom: 0em;
+	font-size: 2.5em;
+}
+
+#greeting-box {
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 13em;
+	margin-top: 4em;
+}
+
+#greeting-title {
+	font-size: 5em;
+	margin-bottom: .4em;
+}
+
+#love-highlight {
+	color: #f86d8b;
+}
+
+#work-box {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+
+#work-box>h1 {
+	font-size: 4em;
+}
